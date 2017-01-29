@@ -17,7 +17,7 @@ namespace AISupportBot.Dialogs
         private async Task MessageReceivedAsync(IDialogContext context, IAwaitable<IMessageActivity> result)
         {
             var message = await result;
-            await context.PostAsync($"Bienvenue dans l'application Zac");
+            await context.PostAsync($"Bienvenue dans l'application Zac !");
         }
     }
 }
